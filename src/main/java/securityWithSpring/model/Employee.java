@@ -1,17 +1,17 @@
 package securityWithSpring.model;
 
 public class Employee {
-    private final Long id;
+    private final Integer id;
     private final String firstName;
     private final String lastName;
 
-    public Employee(Long id, String firstName, String lastName) {
+    public Employee(Integer id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
