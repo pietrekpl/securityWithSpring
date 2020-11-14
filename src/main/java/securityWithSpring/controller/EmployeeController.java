@@ -1,4 +1,4 @@
-package securityWithSpring.securityWithSpring.controller;
+package securityWithSpring.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
